@@ -28,7 +28,25 @@ import os
 # dir_containts = os.listdir(r'C:\Users\Бегунков Владислав\Documents\repos\auto_pr')
 # print(dir_containts)
 
-totalSize = 0
-for filename in os.listdir(r'C:\Windows\System32'):
-    totalSize = totalSize + os.path.getsize(os.path.join(r'C:\Windows\System32'))
-print(totalSize)
+# totalSize = 0
+# for filename in os.listdir(r'C:\Windows\System32'):
+#     totalSize = totalSize + \
+#         os.path.getsize(os.path.join(r'C:\Windows\System32'))
+# print(totalSize)
+
+
+#############
+
+# p = Path('spam.txt')
+# print(p.write_text('Hello, world!'))
+
+# text = p.read_text()
+# print(text)
+# print(Path.home())
+# print(sonnet_file_read)
+# file_path = get_file_path()
+# hello_file = open(get_file_path() / 'hello.txt')
+# hello_content = hello_file.read()
+
+# print(hello_file)
+# print(hello_content)
